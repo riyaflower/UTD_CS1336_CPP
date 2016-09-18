@@ -1,0 +1,7 @@
+17:33:00 **** Incremental Build of configuration Release for project CS1336_LAB ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o qqq.o "..\\qqq.cpp" 
+g++ -o CS1336_LAB.exe qqq.o 
+
+17:33:01 Build Finished (took 1s.80ms)
+

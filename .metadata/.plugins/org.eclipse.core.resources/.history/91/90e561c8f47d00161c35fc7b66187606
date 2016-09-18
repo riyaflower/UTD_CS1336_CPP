@@ -1,0 +1,40 @@
+// Author: Richa Patel
+// NetID: rhp160030	
+// Date: Sep 23, 2016
+// Course: CS-1336
+// Section: 009
+// Name: Programming Assignment #1 (Total Purchase)
+ 
+// Description: This program calculates a subtotal purchase, 
+//             adds sales tax, then calculates the total.
+
+#include <iostream>
+#include <string>
+#include <iomanip>
+
+using namespace std;
+ 
+int main()
+ 
+{
+	
+	// List the types of the variables
+	
+	int total_customers, one_per_week, citrus_flavored;
+
+	// Define the variables
+	
+	total_customers = 12467;
+	
+	one_per_week = total_customers * (0.14);
+	
+	citrus_flavored = one_per_week * (0.64);
+	
+	// Display number of people who purchase one or more drinks a week
+	
+	cout << one_per_week << " customers purchase one or more energy drinks per week. \n";
+	cout << citrus_flavored << " customers prefer citrus flavored energy drinks.\n";
+	
+	return 0;
+
+}

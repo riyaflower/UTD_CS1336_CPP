@@ -1,0 +1,7 @@
+17:53:04 **** Rebuild of configuration Debug for project Lesson Lab1 Exercise 2 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab1Exercise2.o "..\\Lab1Exercise2.cpp" 
+g++ -o "Lesson Lab1 Exercise 2 Project.exe" Lab1Exercise2.o 
+
+17:53:05 Build Finished (took 809ms)
+

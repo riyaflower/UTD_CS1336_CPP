@@ -1,0 +1,134 @@
+Info: Nothing to build for CS1336_LAB
+Info: Nothing to build for CS1336_LAB
+Info: Nothing to build for qqq
+17:33:00 **** Incremental Build of configuration Release for project CS1336_LAB ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o qqq.o "..\\qqq.cpp" 
+g++ -o CS1336_LAB.exe qqq.o 
+17:45:10 **** Rebuild of configuration Debug for project Lesson 1 Exercise 1 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab1Exercise1.o "..\\Lab1Exercise1.cpp" 
+g++ -o "Lesson 1 Exercise 1 Project.exe" Lab1Exercise1.o 
+Info: Nothing to build for Lesson 1 Exercise 1 Project
+17:47:09 **** Rebuild of configuration Debug for project Lesson 1 Exercise 2 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab1Exercise2.o "..\\Lab1Exercise2.cpp" 
+g++ -o "Lesson 1 Exercise 2 Project.exe" Lab1Exercise2.o 
+Info: Nothing to build for Lesson 1 Exercise 2 Project
+17:53:02 **** Rebuild of configuration Release for project Lesson Lab 2 Exercise 1 Project ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Lab2_Exercise1.o "..\\Lab2_Exercise1.cpp" 
+g++ -o "Lesson Lab 2 Exercise 1 Project.exe" Lab2_Exercise1.o 
+Info: Nothing to build for Lesson Lab 2 Exercise 2 Project
+17:53:03 **** Rebuild of configuration Debug for project Lesson Lab1 Exercise 1 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab1Exercise1.o "..\\Lab1Exercise1.cpp" 
+g++ -o "Lesson Lab1 Exercise 1 Project.exe" Lab1Exercise1.o 
+17:53:04 **** Rebuild of configuration Debug for project Lesson Lab1 Exercise 2 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab1Exercise2.o "..\\Lab1Exercise2.cpp" 
+g++ -o "Lesson Lab1 Exercise 2 Project.exe" Lab1Exercise2.o 
+Info: Nothing to build for Lesson Lab 2 Exercise 1 Project
+Info: Nothing to build for Lesson Lab 2 Exercise 1 Project
+17:54:51 **** Incremental Build of configuration Debug for project Lesson Lab 2 Exercise 2 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab2_Exercise2.o "..\\Lab2_Exercise2.cpp" 
+g++ -o "Lesson Lab 2 Exercise 2 Project.exe" Lab2_Exercise2.o 
+Info: Nothing to build for Lesson Lab 2 Exercise 2 Project
+17:59:05 **** Rebuild of configuration Debug for project Lesson 3 Lab 3 Exercise 2 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab3_Exercise1.o "..\\Lab3_Exercise1.cpp" 
+g++ -o "Lesson 3 Lab 3 Exercise 2 Project.exe" Lab3_Exercise1.o 
+c:/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+17:59:15 **** Incremental Build of configuration Debug for project Lesson 3 Lab 3 Exercise 2 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab3_Exercise1.o "..\\Lab3_Exercise1.cpp" 
+g++ -o "Lesson 3 Lab 3 Exercise 2 Project.exe" Lab3_Exercise1.o 
+Info: Nothing to build for Lesson 3 Lab 3 Exercise 2 Project
+18:00:09 **** Rebuild of configuration Debug for project Lesson 3 Lab 3 Exercise 1 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab3_Exercise1.o "..\\Lab3_Exercise1.cpp" 
+g++ -o "Lesson 3 Lab 3 Exercise 1 Project.exe" Lab3_Exercise1.o 
+Info: Nothing to build for Lesson 3 Lab 3 Exercise 1 Project
+18:01:33 **** Incremental Build of configuration Debug for project Lesson 3 Lab 3 Exercise 2 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab3_Exercise2.o "..\\Lab3_Exercise2.cpp" 
+g++ -o "Lesson 3 Lab 3 Exercise 2 Project.exe" Lab3_Exercise2.o 
+Info: Nothing to build for Lesson 3 Lab 3 Exercise 2 Project
+18:04:04 **** Rebuild of configuration Debug for project Programming Assignment 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o rhp160030_hw1A.o "..\\rhp160030_hw1A.cpp" 
+..\rhp160030_hw1A.cpp: In function 'int main()':
+..\rhp160030_hw1A.cpp:22:6: warning: variable 'item1' set but not used [-Wunused-but-set-variable]
+  int item1, item2, item3, item4, item5;
+      ^
+..\rhp160030_hw1A.cpp:22:13: warning: variable 'item2' set but not used [-Wunused-but-set-variable]
+  int item1, item2, item3, item4, item5;
+             ^
+..\rhp160030_hw1A.cpp:22:20: warning: variable 'item3' set but not used [-Wunused-but-set-variable]
+  int item1, item2, item3, item4, item5;
+                    ^
+..\rhp160030_hw1A.cpp:22:27: warning: variable 'item4' set but not used [-Wunused-but-set-variable]
+  int item1, item2, item3, item4, item5;
+                           ^
+..\rhp160030_hw1A.cpp:22:34: warning: variable 'item5' set but not used [-Wunused-but-set-variable]
+  int item1, item2, item3, item4, item5;
+                                  ^
+g++ -o "Programming Assignment 1.exe" rhp160030_hw1A.o 
+Info: Nothing to build for Programming Assignment 1
+Info: Nothing to build for Programming Assignment 1
+Info: Nothing to build for Programming Assignment 1
+Info: Nothing to build for Programming Assignment 1
+18:07:36 **** Incremental Build of configuration Debug for project Programming Assignment 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o rhp160030_hw1A.o "..\\rhp160030_hw1A.cpp" 
+g++ -o "Programming Assignment 1.exe" rhp160030_hw1A.o 
+Info: Nothing to build for Programming Assignment 1
+18:08:20 **** Rebuild of configuration Debug for project Programming Assignment 2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o rhp160030_hw1B.o "..\\rhp160030_hw1B.cpp" 
+g++ -o "Programming Assignment 2.exe" rhp160030_hw1B.o 
+Info: Nothing to build for Programming Assignment 2
+18:11:21 **** Rebuild of configuration Debug for project Lesson 1 Lab1 Exercise 1 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab1Exercise1.o "..\\Lab1Exercise1.cpp" 
+g++ -o "Lesson 1 Lab1 Exercise 1 Project.exe" Lab1Exercise1.o 
+18:11:22 **** Rebuild of configuration Debug for project Lesson 1 Lab1 Exercise 2 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab1Exercise2.o "..\\Lab1Exercise2.cpp" 
+g++ -o "Lesson 1 Lab1 Exercise 2 Project.exe" Lab1Exercise2.o 
+18:11:23 **** Rebuild of configuration Release for project Lesson 2 Lab 2 Exercise 1 Project ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o Lab2_Exercise1.o "..\\Lab2_Exercise1.cpp" 
+g++ -o "Lesson 2 Lab 2 Exercise 1 Project.exe" Lab2_Exercise1.o 
+18:11:24 **** Rebuild of configuration Debug for project Lesson 2 Lab 2 Exercise 2 Project ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Lab2_Exercise2.o "..\\Lab2_Exercise2.cpp" 
+g++ -o "Lesson 2 Lab 2 Exercise 2 Project.exe" Lab2_Exercise2.o 
+Info: Nothing to build for Lesson 3 Lab 3 Exercise 1 Project
+Info: Nothing to build for Lesson 3 Lab 3 Exercise 2 Project
+18:11:25 **** Incremental Build of configuration Debug for project Programming Assignment 1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o rhp160030_hw1A.o "..\\rhp160030_hw1A.cpp" 
+g++ -o "Programming Assignment 1.exe" rhp160030_hw1A.o 
+18:11:26 **** Incremental Build of configuration Debug for project Programming Assignment 2 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o rhp160030_hw1B.o "..\\rhp160030_hw1B.cpp" 
+g++ -o "Programming Assignment 2.exe" rhp160030_hw1B.o 
+Info: Nothing to build for Lesson 1 Lab1 Exercise 1 Project
+Info: Nothing to build for Lesson 1 Lab1 Exercise 2 Project
+Info: Nothing to build for Lesson 2 Lab 2 Exercise 1 Project
+Info: Nothing to build for Lesson 2 Lab 2 Exercise 2 Project
+Info: Nothing to build for Lesson 3 Lab 3 Exercise 1 Project
+Info: Nothing to build for Lesson 3 Lab 3 Exercise 2 Project
+Info: Nothing to build for Programming Assignment 1
+Info: Nothing to build for Programming Assignment 2
+Info: Nothing to build for Lesson 1 Lab1 Exercise 1 Project
+Info: Nothing to build for Lesson 1 Lab1 Exercise 2 Project
+Info: Nothing to build for Lesson 2 Lab 2 Exercise 1 Project
+Info: Nothing to build for Lesson 2 Lab 2 Exercise 2 Project
+Info: Nothing to build for Lesson 3 Lab 3 Exercise 1 Project
+Info: Nothing to build for Lesson 3 Lab 3 Exercise 2 Project
+Info: Nothing to build for Programming Assignment 1
+Info: Nothing to build for Programming Assignment 2
